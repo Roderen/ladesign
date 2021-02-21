@@ -453,7 +453,7 @@ header {
 
 @media screen and (max-width: 992px) { /*categories ul li, span*/
 	.categories ul li, .categories ul li span {
-	font-size: 10px;
+	font-size: 9px;
 	}
 }
 
@@ -484,7 +484,7 @@ header {
 }
 @media screen and (max-width: 768px) { /*categories ul li, span*/
 	.categories ul li, .categories ul li span {
-	margin-right: 30px;
+	margin-right: 20px;
 	}
 }
 @media screen and (max-width: 768px) { /*header*/
@@ -555,5 +555,30 @@ header {
 	}
 	.portfolio {
 		padding: 0 20px;
+	}
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+	.text_intro {
+		padding-bottom: 245px;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.text_intro {
+		padding-bottom: 145px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.text_intro {
+		padding-bottom: 45px;
 	}
 }

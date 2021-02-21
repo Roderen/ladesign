@@ -1,5 +1,6 @@
+//header position fixed after scroll y
 $(window).scroll(function (){
-        var posY=window.scrollY; //переменная сколько уже прокрутили
+        var posY=window.scrollY;
 
         if (posY > 1){
             	$('.header').addClass('header_fixed');			
@@ -16,4 +17,3 @@ function burger() {
 function more() {
 	document.querySelector(".more").classList.add("more").classList.remove("more");
 }
-
